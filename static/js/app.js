@@ -1098,7 +1098,7 @@ function option_Solo(different_selection){
       name: 'Seconds',
       text: `${((eval(("("+different_selection+"_time_sum)"))/eval(("("+different_selection+"_victory).length")))).toFixed(2)} seconds`,
       hoverinfo: `text`},
-      { values: [1,1,1,0],
+      { values: [1,1,1,3],
     rotation: 90,
     text: [`2:01-3:00`, `1:01-2:00`, `0:00-1:00`, ''],
     textinfo: 'text',
